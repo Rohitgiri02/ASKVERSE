@@ -1,0 +1,32 @@
+interface links{
+    route:string
+    imageurl:string
+    alt:string
+}
+export const links:links[]=[{
+    route:"/",
+    imageurl:"/assets/home.png",
+    alt:"Home",
+},{
+    route:"/community",
+    imageurl:"/assets/community.png",
+    alt:"Community"
+},{
+    route:"/questions",
+    imageurl:"/assets/question.png",
+    alt:"Questions"
+},
+{
+    route:"/category",
+    imageurl:"/assets/categories.png",
+    alt:"Category"
+},{
+    route:"/profile",
+    imageurl:"/assets/user.png",
+    alt:"Profile"
+},{
+    route:"/trendings",
+    imageurl:"/assets/trend.png",
+    alt:"Trendings"
+}
+]
