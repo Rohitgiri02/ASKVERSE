@@ -8,7 +8,7 @@ import React from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import {links} from "@/constant"
 import { usePathname } from 'next/navigation';
-const Content = ()=>{
+export const Content = ()=>{
   const pathname = usePathname();
   return(
     <section className='flex h-full flex-col gap-5 pt-6 '>
@@ -41,7 +41,7 @@ const Mobile_nav = () => {
         <UserButton></UserButton>
     </SignedIn>
     </SheetTitle>
-    <div className='noscroll '>
+    <div className='noscroll w-44 '>
     <SheetClose asChild>
     <Content/>
     </SheetClose>
