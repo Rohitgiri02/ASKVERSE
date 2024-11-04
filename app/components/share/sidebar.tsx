@@ -6,7 +6,7 @@ import React from 'react'
 const Sidebar = () => {
   const pathname = usePathname();
   return (
-    <section className=' sticky left-0 top-0 flex h-screen bg-slate-100 flex-col gap-5 pt-24 w-36 overflow-y-auto max-sm:hidden lg:w-[200px]'>
+    <section className=' sticky z-40 left-0 top-0 flex h-screen bg-white flex-col gap-5 pt-28 w-36 shadow-md overflow-y-auto max-sm:hidden lg:w-[200px]'>
       {links.map((item)=>{
         const active = (item.route===pathname);
         return(
